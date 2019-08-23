@@ -51,7 +51,7 @@ Most successful prediction results were obtained by employing fine-tuned version
 
 In order to find sentence vectors of each comment, arithmetic mean of word vectors of the comment was computed.
 
-1. b) **TF.IDF Based Feature Generation**
+   b) **TF.IDF Based Feature Generation**
 
 TF.IDF approach is one of most frequently used feature extraction methods for conventional natural language processing tasks. It tries to find appropriate weights for word importances according to their in-document and inter-document frequencies. This method also produced promising results especially for short comment sentences.
 
@@ -148,7 +148,7 @@ According to these results; in most positive comments, customers mainly apprecia
 
 **Technical Details**
 
-   a) **Project Structure**
+   **Project Structure**
 
 /api/ : Includes model binaries, flask rest service, model utilities and dockerfile
 
@@ -158,7 +158,7 @@ According to these results; in most positive comments, customers mainly apprecia
 
 /requirement.txt : Includes python package dependencies
 
-    b) **Docker Build**
+    **Docker Build**
 
 In order built docker container please run the code in below where you /api/ directory
 
