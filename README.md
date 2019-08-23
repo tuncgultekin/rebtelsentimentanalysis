@@ -59,19 +59,19 @@ TF.IDF approach is one of most frequently used feature extraction methods for co
 
 3 different methods were tested as prediction model.
 
-1. a) **Classification Based**
+   a) **Classification Based**
 
 In this approach, the problem was threaded as multi-class classification problem [1,2,3,4,5].
 
 The dataset is small and imbalanced also there is a possible risk of overfit. By considering these factors, it was thought than an ensemble based non-linear model would be useful. To this end Random Forest classification algorithm was selected and fed with TF.IDF and W2V features independently.
 
-1. b) **Regression Based**
+   b) **Regression Based**
 
 Since labels of comments are numeric and their orders magnitudes are meaningful, the problem seen as a regression problem. Again by considering factors which are stated above, Random Forest Regressor model was selected as an ensemble based non-linear model. Fed with TF.IDF and W2V features independently.
 
 Regression based model produced better results in terms of error rates.
 
-1. c)**Regression Based Model Ensemble (TF.IDF + Word2Vec)**
+   c)**Regression Based Model Ensemble (TF.IDF + Word2Vec)**
 
 Error rates of word2vec features are lower than TF.IDF ones. On the other than TF.IDF feature exposes better results on short sentences. To combine their advantages and produce more robust model, 2 different Random Forest Regressor model was trained with TF.IDF and Word2Vec features respectively. Than an ensemble created by taking the arithmetic mean of their prediction scores.
 
@@ -148,7 +148,7 @@ According to these results; in most positive comments, customers mainly apprecia
 
 **Technical Details**
 
-1. a) **Project Structure**
+   a) **Project Structure**
 
 /api/ : Includes model binaries, flask rest service, model utilities and dockerfile
 
@@ -158,13 +158,13 @@ According to these results; in most positive comments, customers mainly apprecia
 
 /requirement.txt : Includes python package dependencies
 
-1. b) **Docker Build**
+    b) **Docker Build**
 
 In order built docker container please run the code in below where you /api/ directory
 
 _docker build -t rebtel\_sentiment .       _
 
-1. c) **Docker Run**
+    c) **Docker Run**
 
 In order to run pre-built docker container, plesase run the code in below
 
@@ -172,13 +172,13 @@ _docker run --name rebtel\_sentiment -p 5555:5050 rebtel\_sentiment       _
 
 The rest service accepts request over 5555 port. If it is not available on the system, any different port can be used.
 
-1. d) **Swagger api Documentation**
+    d) **Swagger api Documentation**
 
 Swagger api documentation UI of the prediction service can be accessed from the path in below
 
 [_http://localhost:5555/api-docs_](http://localhost:5555/api-docs)
 
-1. e) **Prediction Api**
+    e) **Prediction Api**
 
 Prediction api can be accessed over &quot;_/api/execute_&quot; path with a Http Post request. As it shown the Swagger api documentation UI in below:
 
