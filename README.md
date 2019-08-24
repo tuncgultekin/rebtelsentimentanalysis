@@ -59,7 +59,7 @@ TF.IDF approach is one of most frequently used feature extraction methods for co
 
 3 different methods were tested as prediction model.
 
-   #### Classification Based**
+   #### Classification Based
 
 In this approach, the problem was threaded as multi-class classification problem [1,2,3,4,5].
 
