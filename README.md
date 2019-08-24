@@ -1,4 +1,4 @@
-## Sentiment Analysis/Prediction for Rebtel Comments on TrustPilot.com
+## Sentiment Analysis/Prediction for Rebtel App Comments
 
 ### Summary
 
