@@ -170,6 +170,6 @@ According to these results; in most positive comments, customers mainly apprecia
    [_http://localhost:5555/api-docs_](http://localhost:5555/api-docs)
 
    #### Prediction Api
-    Prediction api can be accessed over /api/execute path with a Http Post request. As it shown the Swagger api documentation UI in below:
+   Prediction api can be accessed over /api/execute path with a Http Post request. As it shown the Swagger api documentation UI in below:
 
    ![Swagger api documentation UI](images/9.png)
