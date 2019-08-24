@@ -172,4 +172,4 @@ According to these results; in most positive comments, customers mainly apprecia
    #### Prediction Api
     Prediction api can be accessed over /api/execute path with a Http Post request. As it shown the Swagger api documentation UI in below:
 
-    ![Swagger api documentation UI](images/9.png)
+   ![Swagger api documentation UI](images/9.png)
