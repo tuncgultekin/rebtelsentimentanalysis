@@ -22,7 +22,7 @@ Title sections of the comments were ignored since they repeated on content.
 
 By increasing the page number from one to inifinity, comments were collected from the following link ([https://www.trustpilot.com/review/www.rebtel.com?page={page\_nums}](https://www.trustpilot.com/review/www.rebtel.com?page=%7bpage_nums%7d)). To determine the last valid comment page,  http response codes were utilized. Trustpilot.com returns Http 301 &quot;redirect&quot; response in case of an invalid page request.
 
-Finally 4111 comments were collected from trustpilot.com and the score/rating distribution of these comment are depicted in below.
+Finally 4111 comments were collected from trustpilot.com and the score/rating distribution of these comments are depicted in below.
 
  ![Class Distributions](images/1.png)
 
